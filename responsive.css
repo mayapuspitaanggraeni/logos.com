@@ -1,0 +1,64 @@
+/*untuk web*/
+@media(max-width: 1000px){
+    .isi-content{
+        width: 25%;
+    }
+  }
+  
+  /*untuk hp*/
+  @media(max-width: 678px){
+    .isi-content{
+        width: 100%;
+    }
+  }
+
+  @media (max-width:1000px){
+    .contact_form{
+        width: 100%;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+    input{
+        width: 100%;
+    }
+    .contact_submit{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:670px){
+    .contact_form{
+        width: 100%;
+        font-size: 12px;
+    }
+    input{
+        width: 100%;
+    }
+    .contact_submit{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+*/ Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .container .box {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .box{
+        font-size: 32px;
+    }
+}
+
+*/ Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container .box {
+        width: 100%
+    }
+    .box {
+        font-size: 24px;
+        line-height: 20px;
+    }
+} 
